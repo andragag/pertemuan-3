@@ -1,0 +1,37 @@
+while(True):
+    print("Kalkulator")
+    print("1.Penjumlahan")
+    print("2.Pengurangan")
+    print("3.Perkalian")
+    print("4.Pembagian")
+    print("5.Keluar")
+    j = int(input("Masukkan pilihan(1/2/3/4/5): ") )
+
+    if j==1:
+        a = int(input("masukan bilangan pertama : "))
+        b = int(input("masukan bilangan kedua : "))
+        c = a + b
+        print(a, "+", b, "=", c)
+        print()
+    elif j==2:
+        a = int(input("masukan bilangan pertama : "))
+        b = int(input("masukan bilangan kedua : "))
+        c = a - b
+        print(a, "-", b, "=", c)
+        print()
+    elif j==3:
+        a = int(input("masukan bilangan pertama : "))
+        b = int(input("masukan bilangan kedua : "))
+        c = a * b
+        print(a, "x", b, "=", c)
+        print()
+    elif j==4:
+        a = float(input("masukan bilangan pertama : "))
+        b = float(input("masukan bilangan kedua : "))
+        c = a / b
+        print(a, "/1", b, "=", c)
+        print()
+    else:
+        break
+    
+print("Terima Kasih")          
